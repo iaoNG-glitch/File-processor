@@ -33,9 +33,7 @@
   ```
   ./file_processor_clnt <input_file> <mode>
   ```
-
 - <input_file>: 처리할 텍스트 파일의 경로
-
 - <mode>: count, upper, lower, reverse 중 하나
 
  
@@ -44,39 +42,62 @@
 
 ### 클라이언트: count
 
-```
 
 ./file_processor_clnt test.txt count
-
-  1번째 줄 전송...
-
-  1번째 줄 결과 수신: Line 1: 11 chars, 2 words
-
-  2번째 줄 전송...
-
-  2번째 줄 결과 수신: Line 2: 26 chars, 4 words
-
-  === 처리 통계 ===
-
-  처리 모드: count
-
-  처리한 줄 수: 10줄
-
-  소요 시간: 0.05초
-
+```
+ 1번째 줄 전송...
+ 1번째 줄 결과 수신: Line 1: 16 chars, 2 words
+ 2번째 줄 전송...
+ 2번째 줄 결과 수신: Line 2: 68 chars, 13 words
+ 3번째 줄 전송...
+ 3번째 줄 결과 수신: Line 3: 0 chars, 0 words
+ 4번째 줄 전송...
+ 4번째 줄 결과 수신: Line 4: 218 chars, 40 words
+ 5번째 줄 전송...
+ 5번째 줄 결과 수신: Line 5: 68 chars, 13 words
+ 6번째 줄 전송...
+ 6번째 줄 결과 수신: Line 6: 56 chars, 11 words
+ 7번째 줄 전송...
+ 7번째 줄 결과 수신: Line 7: 48 chars, 10 words
+ 
+ === 처리 통계 ===
+ 처리 모드: count
+ 처리한 줄 수: 7줄
+ 소요 시간: 0.00초
 ```
 
 ### 클라이언트: upper
 
-```
+
 
 ./file_processor_clnt test.txt upper
-
-  .
-
-  . <이 부분은 실제 출력 결과로 대체>
-
-  .
+```
+ 1번째 줄 전송...
+ 1번째 줄 결과 수신: HELLO, EVERYONE.
+ 
+ 2번째 줄 전송...
+ 2번째 줄 결과 수신: THIS FILE IS A TEXT FOR ASSIGNMENT 4. BELOW ARE SOME VARIOUS QUOTES.
+ 
+ 3번째 줄 전송...
+ 3번째 줄 결과 수신: 
+ 
+ 4번째 줄 전송...
+ 4번째 줄 결과 수신: 1. EVERY SITUATION IN OUR LIVES IS JUST A MOMENT. THEREFORE, IF THE SITUATION IS GOOD, SIMPLY ENJOY IT FULLY. AND EVEN IF THE SITUATION IS NOT GOOD, REMEMBER THAT IT WILL NOT LAST FOREVER AND WILL GRADUALLY GET BETTER.
+ 
+ 5번째 줄 전송...
+ 5번째 줄 결과 수신: 2. NO MATTER HOW DIFFICULT THE PAST WAS, YOU CAN ALWAYS START AGAIN.
+ 
+ 6번째 줄 전송...
+ 6번째 줄 결과 수신: 3. DO NOT TELL PEOPLE YOUR PLANS; SHOW THEM THE RESULTS.
+ 
+ 7번째 줄 전송...
+ 7번째 줄 결과 수신: 4. A MOUNTAIN IS A MOUNTAIN, AND WATER IS WATER.
+ 
+ 
+ === 처리 통계 ===
+ 처리 모드: upper
+ 처리한 줄 수: 7줄
+ 소요 시간: 0.00초
 
 ```
 
