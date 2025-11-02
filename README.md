@@ -24,12 +24,13 @@
 
 - 사용법
 
-  ```
+  
   Server
+  ```
   ./file_processor_svr
   ```
-  ```
   Client
+  ```
   ./file_processor_clnt <input_file> <mode>
   ```
 
