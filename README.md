@@ -105,32 +105,65 @@
 
 ### 클라이언트: lower
 
-```
+
 
 ./file_processor_clnt test.txt lower
-
-  .
-
-  . <이 부분은 실제 출력 결과로 대체>
-
-  .
-
+```
+ 1번째 줄 전송...
+ 1번째 줄 결과 수신: hello, everyone.
+ 
+ 2번째 줄 전송...
+ 2번째 줄 결과 수신: this file is a text for assignment 4. below are some various quotes.
+ 
+ 3번째 줄 전송...
+ 3번째 줄 결과 수신: 
+ 
+ 4번째 줄 전송...
+ 4번째 줄 결과 수신: 1. every situation in our lives is just a moment. therefore, if the situation is good, simply enjoy it fully. and even if the situation is not good, remember that it will not last forever and will gradually get better.
+ 
+ 5번째 줄 전송...
+ 5번째 줄 결과 수신: 2. no matter how difficult the past was, you can always start again.
+ 
+ 6번째 줄 전송...
+ 6번째 줄 결과 수신: 3. do not tell people your plans; show them the results.
+ 
+ 7번째 줄 전송...
+ 7번째 줄 결과 수신: 4. a mountain is a mountain, and water is water.
+ 
+ 
+ === 처리 통계 ===
+ 처리 모드: lower
+ 처리한 줄 수: 7줄
+ 소요 시간: 0.00초
 ```
 
  
 
 ### 클라이언트: reverse
 
-```
+
 
 ./file_processor_clnt test.txt reverse
-
-  .
-
-  . <이 부분은 실제 출력 결과로 대체>
-
-  .
-
+```
+ 1번째 줄 전송...
+ 1번째 줄 결과 수신: .enoyreve ,olleH
+ 2번째 줄 전송...
+ 2번째 줄 결과 수신: .setouq suoirav emos era woleB .4 tnemngissA rof txet a si elif sihT
+ 3번째 줄 전송...
+ 3번째 줄 결과 수신: 
+ 4번째 줄 전송...
+ 4번째 줄 결과 수신: .retteb teg yllaudarg lliw dna reverof tsal ton lliw ti taht rebmemer ,doog ton si noitautis eht fi neve dnA .ylluf ti yojne ylpmis ,doog si noitautis eht fi ,eroferehT .tnemom a tsuj si sevil ruo ni noitautis yrevE .1
+ 5번째 줄 전송...
+ 5번째 줄 결과 수신: .niaga trats syawla nac uoy ,saw tsap eht tluciffid woh rettam oN .2
+ 6번째 줄 전송...
+ 6번째 줄 결과 수신: .stluser eht meht wohs ;snalp ruoy elpoep llet ton oD .3
+ 7번째 줄 전송...
+ 7번째 줄 결과 수신: .retaw si retaw dna ,niatnuom a si niatnuom A .4
+ 
+ === 처리 통계 ===
+ 처리 모드: reverse
+ 처리한 줄 수: 7줄
+ 소요 시간: 0.00초
 ```
 
  
@@ -138,9 +171,11 @@
 ### 서버
 
 ```
-
-  1번째 줄 처리 중...
-
-  2번째 줄 처리 중...
-
+ 1번째 줄 처리 중...
+ 2번째 줄 처리 중...
+ 3번째 줄 처리 중...
+ 4번째 줄 처리 중...
+ 5번째 줄 처리 중...
+ 6번째 줄 처리 중...
+ 7번째 줄 처리 중...
 ```
