@@ -25,10 +25,12 @@
 - 사용법
 
   ```
+  Server
   ./file_processor_svr
-  
+  ```
+  ```
+  Client
   ./file_processor_clnt <input_file> <mode>
-  
   ```
 
 - <input_file>: 처리할 텍스트 파일의 경로
